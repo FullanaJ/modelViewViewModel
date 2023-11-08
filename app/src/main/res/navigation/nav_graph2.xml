@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/fragment_ClaculadorPrimo">
+    <fragment
+        android:id="@+id/fragment_ClaculadorPrimo"
+        android:name="com.fullana.modelviewviewmodel.Fragment_ClaculadorPrimo"
+        android:label="fragment__claculador_primo"
+        tools:layout="@layout/fragment__claculador_primo" />
+</navigation>
